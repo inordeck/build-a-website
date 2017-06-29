@@ -1,0 +1,138 @@
+/* 
+FONTS IN USE
+HEADLINE: "Playfair Display" 400i 9001
+BODY: "Raleway" 400 600 900
+*/
+
+/*
+COLORS IN USE:
+ORANGE: #f7941d
+TEAL 1 DARK: #12a89d
+TEAL 2 MEDIUM: #64b9b4
+TEAL 3 MEDIUM LIGHT: #98ccc8
+TEAL 4 LIGHT: #cae4e1
+GRAY 1 DARK: #58585a
+GRAY MEDIUM: #818286
+GRAY 2 LIGHT: #d1d2d4
+*/
+
+header {
+	padding: 0 0 20px 0;
+	background-color: #58585a; 
+}
+nav {
+	text-align: center;
+	padding: 20px;
+	background-color: #64b9b4;
+	font-family: "Playfair Display", serif;
+	font-weight: 900;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+#navBar {
+    list-style-type: none;
+}
+.navLink {
+	display: inline;
+	padding: 10px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: #cae4e1;
+	border-bottom: 2px solid #cae4e1;
+}
+#about {
+	padding: 25px 75px;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    column-gap: 40px;
+}	
+#copy {
+	display: inline;
+	float: left;	
+}
+#headShot {
+	display: inline;
+	float: right;
+}
+main {
+	padding: 25px 75px;
+}
+h1 {
+	padding: 0 0 20px 0;
+	font-family: "Raleway", sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+	color: #f7941d;
+}
+h2 {
+	padding: 20PX 0 10px 0;
+	font-family: "Playfair Display", serif;
+	font-weight: 400;
+	font-size: 25px;
+	color: #d1d2d4;
+}
+h3 {
+	padding: 20px 0 10px 0;
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+	font-size: 21px;
+	color: #64b9b4;
+}
+h4 {
+	padding: 20px 0;
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: white;
+}
+h5 {
+	padding: 30px 0;
+	font-family: "Playfair Display", serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: white;
+}
+p {
+	padding: 0 0 20PX 0;
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+	font-size: 16;
+	line-height: 1.5em;
+	color: #58585a;
+}
+#schools {
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+	font-size: 16;
+	line-height: 1.5em;
+	color: #58585a;
+}
+#portfolioLink {
+	color: #98ccc8;
+	font-weight: 900;
+	text-decoration: none;
+}
+#portfolioLink:hover {
+	color: #f7941d;
+	border-bottom: 2px solid #f7941d;
+}
+.projects {
+	padding: 10px 0;
+}
+footer {
+	padding: 20px 0;
+	text-align: center;
+	background-color: #58585a; 
+}
+.socialLinks {
+    list-style-type: none;
+}
+#socialIcon {
+	display: inline;
+	padding: 10px;
+}
